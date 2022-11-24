@@ -1,7 +1,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.stud.ntnu.no/#https://gitlab.stud.idi.ntnu.no/it1901/groups-2022/gr2261/gr2261)
-# Gruppe 2261
+# CleaneFX
 
-Repo for gruppe 2261. Prosjektet er delt inn i modulene [core](core/README.md), et lager for domene og lokal persistens, [fxui](fxui/README.md), et lager for alt brukergrensesnitt og klassene som bygger det, og en [restapi](restapi/README.md) modul, som styrer lagring til og fra server. Prosjektet inneholder tester av alle modulene med relativt grei testdekningsgrad.
+Prosjektet er delt inn i modulene [core](core/README.md), et lager for domene og lokal persistens, [fxui](fxui/README.md), et lager for alt brukergrensesnitt og klassene som bygger det, og en [restapi](restapi/README.md) modul, som styrer lagring til og fra server. Prosjektet inneholder tester av alle modulene med relativt grei testdekningsgrad.
 
 Vi bruker Jackson hovedsaklig for persistens, javafx for brukergrensesnitt, og [json-server](https://github.com/typicode/json-server) for restapi. Vi valgte Jackson for json-parsing da den er svært populær med god dokumentasjon, javafx fordi alle på gruppen hadde erfaring med det, og json-server ettersom det fylte alle behovene vi hadde uten å være unødvendig komplisert.
 
