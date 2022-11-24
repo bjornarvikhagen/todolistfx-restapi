@@ -1,0 +1,6 @@
+/core/target/
+/fxui/target/
+/restapi/target/
+/restserver/target/
+.idea
+.vscode

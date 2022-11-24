@@ -1,0 +1,5 @@
+Skrev ferdig alle klassene og FXML-filen, inkludert tester til klassene. 
+Implementertert GITPOD-støtte. 
+Opprettet README.md fil på rotnivå, og README.md fil i kodelageret, som beskriver hva appen handler om og er ment å gjøre. 
+Konfigurert maven slik at mvn javafx:run og mvn javafx:test kjører som forventet.
+Skrevet dokumentasjon for release/milepæl 1.

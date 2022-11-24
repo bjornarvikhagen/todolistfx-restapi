@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="641.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxui.FxAppControllerUsingRest">
+   <children>
+      <ScrollPane layoutX="75.0" layoutY="72.0" prefHeight="340.0" prefWidth="492.0">
+         <content>
+          <AnchorPane fx:id="anchor" maxWidth="-Infinity" minHeight="-Infinity" minWidth="0.0" prefHeight="111.0" prefWidth="447.0" />
+         </content>
+      </ScrollPane>
+      <Text layoutX="271.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="create new task" wrappingWidth="100.0" />
+      <TextField fx:id="descField" layoutX="64.0" layoutY="474.0" promptText="Description" />
+      <Button fx:id="makeTaskButton" layoutX="246.0" layoutY="518.0" mnemonicParsing="false" onAction="#makeTask" prefHeight="41.0" prefWidth="150.0" text="Make Task" />
+      <Label layoutX="305.0" layoutY="46.0" prefHeight="17.0" prefWidth="36.0" text="Tasks" />
+      <DatePicker fx:id="deadField" layoutX="243.0" layoutY="474.0" prefHeight="26.0" prefWidth="159.0" promptText="deadline" />
+      <ChoiceBox fx:id="personSelect" layoutX="427.0" layoutY="474.0" prefWidth="150.0" />
+      <Button layoutX="427.0" layoutY="525.0" mnemonicParsing="false" onAction="#makeNewPerson" prefHeight="26.0" prefWidth="150.0" text="Add person" />
+      <Button layoutX="427.0" layoutY="589.0" mnemonicParsing="false" onAction="#handleSave" prefHeight="26.0" prefWidth="150.0" text="Save data to file" />
+      <Button layoutX="427.0" layoutY="641.0" mnemonicParsing="false" onAction="#handleLoad" prefHeight="26.0" prefWidth="150.0" text="Load data from file" />
+      <Button layoutX="584.0" layoutY="474.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
+   </children>
+</Pane>
